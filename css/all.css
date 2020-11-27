@@ -1,0 +1,193 @@
+/*test*/
+
+.container{
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.header{
+    width: auto;
+    height: 50px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 40px;
+}
+
+
+.main_nav{
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.main_nav a{
+  margin-left: 4%;
+}
+
+.logo{
+  vertical-align: middle;
+  position: absolute;
+}
+
+.content{
+  margin-left: 20%;
+  margin-top: 13%;
+  margin-bottom: 18%;
+  height: auto;
+  width: 60%;
+  background: black;
+  display: inline-block;
+}
+
+.intro_colume{
+  width: 450px;
+  display: inline-block;
+  margin-right: 10%;
+  vertical-align: top;
+}
+
+.profile_colume{
+  display: inline-block;
+  padding-top: 60px;
+  vertical-align: top;
+}
+
+.pic{
+  width: 100%;
+}
+
+/* .colume1{
+  display: inline-block;
+}
+
+.colume2{
+  margin: 5% 0 10% 10%;
+  /*width: 30%;*/
+
+h1{
+  font-size: 40px;
+  margin-bottom: 5%;
+}
+
+.introduction{
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+h2{
+  color: white;
+  font-size: 38px;
+  margin-bottom: 3%;
+  margin-bottom: 5%;
+}
+
+.content2{
+  height: auto;
+  width: auto;
+  margin: 0;
+  margin-top: 13%;
+  background: pink;
+  margin-left: 4%;
+  margin-bottom: 18%;
+}
+
+.skill_block{
+  width: 300px;
+  height: 404px;
+  margin-bottom: 1%;
+  background: black;
+  padding: 3%;
+  margin-right: 1%;
+  float: left;
+}
+
+ul{
+  font-size: 18px;
+  color: white;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.content3{
+  width: 82.65%;
+  height: auto;
+  margin-left: 8%;
+  margin-top: 13%;
+  background: black;
+  display: inline-block;
+  margin-bottom: 20%;
+}
+
+.colume1{
+  float: right;
+}
+
+.colume2{
+  background: blue;
+  width: auto;
+  float: left;
+  margin-right: 5%;
+}
+
+.colume2 p{
+  color: white;
+  width: 446px;
+  height: 150px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.pj_img{
+  width: auto;
+  height: 360px;
+  overflow: hidden;
+}
+
+.colume2_right{
+  background: blue;
+  width: auto;
+  float: left;
+}
+
+.colume2_right p{
+  color: white;
+  width: 446px;
+  height: 150px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer{
+  width: auto;
+  height: 300px;
+  background: black;
+  padding: 3% 0 3% 0;
+  text-align: center;
+
+}
+
+.footer h2{
+  color: grey;
+  text-align: center;
+}
+
+.footer li{
+  color: grey;
+  font-size: 16px;
+  line-height: 42px;
+  vertical-align: center;
+}
+
+h3{
+  color: white;
+  font-size: 28px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+
+}
