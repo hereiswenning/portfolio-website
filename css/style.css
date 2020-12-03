@@ -1,4 +1,96 @@
-/*test*/
+
+/*
+Branding color::
+Grey: #A29E9F
+Black: #272727
+Orange: FF7B42
+*/
+
+body{
+  font-family: 'Concert One', cursive;
+}
+
+h1{
+  font-size: 2.5em;
+  margin-bottom: 5%;
+}
+
+h2{
+  color: white;
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+
+h3{
+  font-size: 1.75em;
+  margin-bottom: 65px;
+  margin-top: 5%;
+}
+
+h4{
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+
+#paragraph{
+  font-size: 1em;
+  line-height: 28px;
+  font-family: "Nunito", sans-serif;
+}
+
+#hero_section{
+  width: 100%;
+  margin: auto;
+}
+
+#hero_slider{
+  width: 40%;
+  margin: auto;
+}
+
+#side_section{
+  background: black;
+  position: absolute;
+  width: 30px;
+  height: 120px;
+  vertical-align: middle;
+  padding: 15px 15px 15px 15px;
+  top: 180px;
+}
+
+#side_section ul{
+  display: block;
+}
+
+#info_section{
+  display: block;
+}
+
+.link{
+  border-bottom: 2px solid #FF7B42;
+}
+
+.large_logo{
+  display: block;
+  margin: auto;
+  padding: 4em 8em 4em 8em;
+  width: 16%;
+}
+
+
+
+.hero_img{
+  width: 38%;
+  padding: 0em 2em 0em 2em;
+
+}
+
+.btn_read_more{
+  color: #A29E9F;
+  font-family: "Nunito", sans-serif;
+  float: right;
+  padding: 2em;
+}
 
 .container{
   width: 100%;
@@ -66,10 +158,6 @@
   margin: 5% 0 10% 10%;
   /*width: 30%;*/
 
-h1{
-  font-size: 40px;
-  margin-bottom: 5%;
-}
 
 .introduction{
   width: auto;
@@ -80,14 +168,10 @@ h1{
   letter-spacing: 2px;
 }
 
-h2{
-  color: white;
-  font-size: 38px;
-  margin-bottom: 5%;
-}
+
 
 .content2{
-  height: auto;
+  height: 700px;
   width: auto;
   margin: 0;
   margin-top: 13%;
@@ -137,9 +221,10 @@ ul{
 .colume2 p{
   color: white;
   width: 446px;
-  height: 150px;
+  height: 130px;
   font-size: 18px;
   line-height: 30px;
+  margin-top: -5%;
 }
 
 .pj_img{
@@ -157,7 +242,7 @@ ul{
 .colume2_right p{
   color: white;
   width: 446px;
-  height: 150px;
+  height: 130px;
   font-size: 18px;
   line-height: 30px;
 }
@@ -168,7 +253,7 @@ ul{
   background: black;
   padding: 3% 0 3% 0;
   text-align: center;
-
+  margin-top: 100px
 }
 
 .footer h2{
@@ -183,11 +268,7 @@ ul{
   vertical-align: center;
 }
 
-h3{
-  font-size: 28px;
-  margin-bottom: 65px;
-  margin-top: 5%;
-}
+
 
 .project_content{
     margin: 0 auto;
@@ -215,16 +296,6 @@ h3{
   /* margin: 5%; */
   height: 500px;
   padding: 5% 6% 5% 6%;
-}
-
-h4{
-  font-size: 24px;
-  margin-bottom: 36px;
-}
-
-.body1{
-  line-height: 24px;
-  font-size: 18px;
 }
 
 .colume2x2{
