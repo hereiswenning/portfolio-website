@@ -6,8 +6,23 @@ Black: #272727
 Orange: #FF7B42
 */
 
+
+
 body{
   font-family: 'Concert One', cursive;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 680px) {
+  body{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body{
+    font-size: 18px;
+  }
 }
 
 h1{
@@ -18,7 +33,7 @@ h1{
 h2{
   color: #272727;
   font-size: 2em;
-  margin-bottom: 5%;
+  margin-bottom: 0.1em;
 }
 
 h3{
@@ -39,6 +54,13 @@ h4{
   letter-spacing: 1.2px;
 }
 
+#caption{
+  font-size: 1em;
+  line-height: 2em;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 1.2px;
+}
+
 #hero_section{
   width: 100%;
   margin: auto;
@@ -53,7 +75,7 @@ h4{
   background: black;
   position: absolute;
   width: 30px;
-  height: 120px;
+  height: 100px;
   vertical-align: middle;
   padding: 15px 15px 15px 15px;
   top: 180px;
@@ -94,23 +116,67 @@ h4{
 }
 
 .header{
-    width: auto;
+    width: 92%;
     height: 50px;
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 40px;
+    text-align: unset;
 }
 
+
+
+
+/* .main_nav{
+  display: none;
+}
+
+.mobile_main_nav{
+  background: #272727;
+}
+
+.mobile_main_nav a{
+  width: 100vw;
+  height: 25vh;
+  background: #272727;
+  display: block;
+} */
+
+/* @media only screen and (min-width: 680px) {
+  .main_nav{
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    text-align: right;
+    display: block;
+  }
+  .main_nav a{
+    margin-left: 4%;
+  }
+
+} */
 
 .main_nav{
   width: auto;
   height: auto;
   vertical-align: middle;
-  text-align: right;
+  text-align: center;
+  display: block;
+}
+.main_nav a{
+  margin-left: 2%;
+  margin-right: 2%;
+  transition: 0.5s opacity;
 }
 
-.main_nav a{
-  margin-left: 4%;
+.btn_nav:hover{
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 640px) {
+  .main_nav{
+    text-align: right;
+  }
 }
 
 .logo{
@@ -119,31 +185,42 @@ h4{
 }
 
 #content{
-  /* margin-left: 20%;
-  margin-top: 13%;
-  margin-bottom: 18%; */
-  padding: 5% 10% 10% 5%;
+  padding: 5% 0 10% 0;
   height: auto;
-  width: 100%;
+  width: 85%;
   margin: auto;
+  text-align: inherit;
 }
 
-.intro_colume{
+@media only screen and (min-width: 680px) {
+  #content{
+    text-align: inherit;
+  }
+
+
+}
+
+.colume-lg-12{
   width: 450px;
-  display: inline-block;
-  padding: 0 0 0 2em;
-  vertical-align: top;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+}
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 680px) {
+  .colume-lg-12{
+    padding-left: 130px;
+    text-align: inherit;
+  }
 }
 
 .profile_colume{
-  display: inline-block;
-  padding: 0 2em 2em 15%;
-  vertical-align: top;
-  width: 540px;
-}
-
-.pic{
-  width: 100%;
+  margin: auto;
+  width: 300px;
 }
 
 /* .colume1{
@@ -163,22 +240,25 @@ h4{
   margin-top: 8em;
 }
 
-#content > .intro_colume > h1{
-  color: #FF7B42;
+.hint{
+  text-align: center;
+  margin: 15em 0 0 0;
 }
-
-
+.hint_txt{
+  padding-bottom: 1em;
+}
 
 .row{
   height: 400px;
   margin-bottom: 100px;
-  background: pink;
+
 }
 
 .root_row{
   padding-top: 50px;
   padding-left: 28%;
-  background: pink;
+  background: #FFFFFF;
+  color: #272727;
 }
 
 [class*="col-"]{
@@ -186,9 +266,9 @@ h4{
 }
 
 .col-lg-6{
-  width: 400px;
+  max-width: 400px
   height: 150px;
-  padding: 6% 3% 6% 0;
+  padding: 80px 20% 6% 0;
 }
 
 .list{
@@ -199,24 +279,53 @@ h4{
   padding-bottom: 200px;
 }
 
-.list > h3{
+.practice > h3{
+  padding-bottom: 3em;
+}
+
+.practice > h4{
+  margin-bottom: -36px;
+}
+
+.practice > p{
+  margin-top: -500px;
+}
+
+
+
+.list_2{
+  margin: auto;
+  max-width: 600px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.list_2 > h3{
   padding-bottom: 30px;
 }
 
-.list > ul {
+.list_2 > ul {
   color: #272727;
   font-size: 2em;
-  margin-bottom: 5%;
-  line-height: 1.5em;
+  margin-bottom: 5em;
+  line-height: 1.7em;
 }
 
+@media only screen and (min-width: 680px) {
+  .list_2{
+    text-align: inherit;
+    line-height: 1.5em;
+  }
+}
 
 .content3{
   width: 82.65%;
   height: auto;
   margin-left: 8%;
   margin-top: 13%;
-  background: black;
+  background: #272727;
   display: inline-block;
   margin-bottom: 20%;
 }
@@ -233,7 +342,7 @@ h4{
 }
 
 .colume2 p{
-  color: white;
+  color: #FFFFFF;
   width: 446px;
   height: 130px;
   font-size: 18px;
@@ -342,4 +451,23 @@ h4{
 }
 .demo_img{
   width: 100%;
+}
+
+.circle{
+  animation: 2s color-change infinite alternate linear;
+}
+
+.arrow{
+  animation: 0.7s arrow-move infinite alternate linear;
+}
+
+@keyframes color-change {
+  0% {fill: #DCB951;}
+  50% {fill: #FF7B42;}
+  100% {fill: #B620E0;}
+}
+
+@keyframes arrow-move {
+  from {transform: translate(0px,0px);}
+  to {transform: translate(0px, 4px);}
 }
