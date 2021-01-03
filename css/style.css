@@ -12,7 +12,7 @@ html{
 
 
 body{
-  font-family: 'IBM Plex Serif', cursive;
+  font-family: 'IBM Plex Serif',Big Caslon, cursive;
   font-size: 14px;
 }
 
@@ -36,6 +36,7 @@ h1{
 h2{
   color: #272727;
   font-size: 2em;
+  font-weight: 100;
   margin-bottom: 0.1em;
 }
 
