@@ -18,8 +18,7 @@ function slideUp(){
             document.getElementById("color1").className = "caption";
         }
     }else{
-    // document.getElementById("project_side_bar").className = " ";
-    return false;
+        document.getElementById("project_side_bar").className = "";
     }
 }
 

@@ -449,7 +449,7 @@ Third section: Project index
 }
 
 .hover_cover:hover{
-  -webkit-filter:brightness(.5);
+  filter: brightness(.5);
 }
 
 .hover_cover2{
@@ -625,9 +625,6 @@ Project: forth section
   width: 350px;
 }
 
-.project_preview_logo{
-  
-}
 
 .project_preview_logo > .txt_colume_6{
   float: left;
@@ -734,7 +731,7 @@ Project: forth section
   top: 240px;
   left: 100px;
   animation-name: slideUp;
-  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 @keyframes slideUp{
