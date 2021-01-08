@@ -520,6 +520,8 @@ About me: Hero section
 .greeting_section{
   font-weight: lighter;
 }
+
+
 /* ==============================
 About me: Second section
 ================================= */
@@ -566,6 +568,18 @@ Project index: Hero section
   z-index: -1;
   overflow: hidden;
   object-fit: cover;
+}
+
+.project_list > .image2{
+
+  top: 800px;
+  
+}
+
+.project_list > .image3{
+
+  top: 1500px;
+  
 }
 
 .project_list > .colume > p{
