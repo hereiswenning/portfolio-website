@@ -29,20 +29,24 @@ body{
 }
 
 h1{
-  font-size: 10em;
+  font-size: 2.25em;
   margin-bottom: 5%;
+  font-weight: 100;
 }
 
 h2{
   color: #272727;
   font-size: 2em;
-  font-weight: 100;
+  font-weight: 300;
   margin-bottom: 0.1em;
+  letter-spacing: -0.025em;
 }
 
 h3{
-  font-size: 1.27em;
+  font-size: 1.5em;
   line-height: 1.5em;
+  font-weight: 500;
+  letter-spacing: -0.025em;
 }
 
 h4{
@@ -56,33 +60,49 @@ h4{
 }
 
 .body1{
-  font-size: 1.27em;
-  font-weight: lighter;
+  font-size: 1.33em;
+  font-weight: 200;
   line-height: 1.33em;
+  font-family: "Balsamiq Sans";
+  letter-spacing: 0.025em;
+  line-height: 1.5em;
+  text-align: left;
 }
 
-.body1-bold{
-  font-size: 1.27em;
-  font-weight: unset;
-  line-height: 1.33em;
-}
 
 .body2{
-  font-size: 0.8em;
-  font-family: "Nurito";
-  font-weight: lighter;
+  font-size: 1.1em;
+  font-family: "Balsamiq Sans";
+  font-weight: 200;
   line-height: 1.33em;
+  letter-spacing: 0.025em;
+}
+
+.body3{
+  font-size: 1em;
+  font-family: "Balsamiq Sans";
+  font-weight: 300;
+  line-height: 1.8em;
+  letter-spacing: 0.045em;
 }
 
 .caption{
-  font-size: 0.7em;
-  font-family: "Nunito", sans-serif;
-  font-weight: lighter;
-  letter-spacing: 1.2px;
+  font-size: 0.8em;
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+}
+
+.capitalization{
+  text-transform: uppercase;
 }
 
 .grey{
   color: #A29E9F;
+}
+
+.white{
+  color: #FFFFFF;
 }
 
 .accent{
@@ -93,8 +113,20 @@ h4{
   font-weight: lighter;
 }
 
+.bold{
+  font-weight: 900;
+}
+
+.bold-700{
+  font-weight: 700;
+}
+
+.bold-400{
+  font-weight: 400;
+}
+
 #bold{
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .text-center{
@@ -361,7 +393,7 @@ Second section: About me index
 }
 
 .colume_single{
-  width: 480px;
+  width: 700px;
   text-align: center;
   display: block;
   margin: auto;
@@ -381,6 +413,11 @@ Second section: About me index
 
 .colume_single > p {
   padding-top: 50px;
+}
+
+.first_introduction > h2 {
+  padding-top: 50px;
+  line-height: 1.1em;
 }
 
 .second_section > .caption{
@@ -488,14 +525,16 @@ About me: Second section
 ================================= */
 
 
-.album_colume{
+.jorney_colume{
   width: 40%;
   height: 100wh;
   margin: auto;
   padding-top: 240px;
-  text-align: center;
 }
 
+.jorney_colume > p{
+  padding-top: 30px;
+}
 
 
 .third_section > span{
@@ -529,6 +568,10 @@ Project index: Hero section
   object-fit: cover;
 }
 
+.project_list > .colume > p{
+  padding-bottom: 0.8em;
+}
+
 
 
 /* ==============================
@@ -543,7 +586,7 @@ Project: Hero section
 }
 
 .project_preview{
-  height: 140vh;
+  height: 100vh;
 }
 
 .project_preview > .colume{
@@ -551,14 +594,27 @@ Project: Hero section
   padding-left: 10vw;
 }
 
-.project_preview > .colume > h2{
-  padding-top: 0.5em;
+
+.project_preview_pj{
+  max-width: 100vw;
+  height: 140vh;
+  /* background-color: #1BC8D4; */
+  background-color: #000000;
 }
+
+.outline{
+  border: #A29E9F 1.2px solid;
+  padding: 50px 50px 70px 50px;
+  border-radius: 6px;
+}
+
 
 .template_cover{
   width: 100vw;
+  height: 80vh;
   /* background-color: #F3F3F3; */
   margin-top: 15vh;
+  object-fit: cover;
 }
 
 .template_phone{
@@ -568,15 +624,172 @@ Project: Hero section
   right: 200px;
 }
 
-.project_preview > .txt_colume_12{
-  margin: auto;
-  margin-top: 90vh;
-  text-align: center;
-  width: 40vw;
+.txt_colume_6{
+  float: left;
 }
 
-.project_preview > .txt_colume_12 > .body1-bold{
-  padding-top: 1em;
+
+.project_preview_pj > .txt_colume_6{
+  margin: auto;
+  margin-top: 27vh;
+  width: 58vw;
+  padding-top: 20vh;
+  margin-left: 13vw;
+  display: block;
+}
+
+#padding-minus{
+  padding-top: 10px;
+}
+
+.project_preview_pj > .txt_colume_6 > .subhead1{
+  padding-bottom: 1em;
+}
+
+.project_preview_pj > .txt_colume_6 > h1{
+  width: 40vw;
+  min-width: 400px;
+}
+
+
+.project_preview_pj > .txt_colume_6 > .body3{
+  width: 380px;
+  letter-spacing: -0.02em;
+  line-height: 1.6em;
+}
+
+.project_preview_pj > .brief > .body3{
+  width: 280px;
+}
+
+@media only screen and (min-width: 641px) {
+  .project_preview_pj > .txt_colume_6 > h1{
+    width: 40vw;
+    min-width: 430px;
+    line-height: 1.15em;
+  }
+  .project_preview_pj > .txt_colume_6 > .body3{
+    width: 30vw;
+    min-width: 280px;
+    letter-spacing: -0.02em;
+    line-height: 1.4em;
+  }
+
+  .project_preview_pj > .brief > .body3{
+    width: 200px;
+    min-width: 230px;
+  }
+
+  .project_preview_pj > .txt_colume_6{
+    margin-left: 20vw;
+    display: inline-block;
+    
+  }
+
+  .project_preview_pj > .brief{
+    position: absolute;
+    margin-left: 0vw;
+    left: 65vw;
+    top: 900px;
+  }
+}
+
+/* ==============================
+Plus section: Scope
+================================= */
+.section{
+  width: 100vw;
+}
+
+.project_scope{
+  margin-left: 10vw ;
+}
+
+.project_scope_row{
+  
+}
+
+.project_colume_6{
+  float: left;
+  display: inline-block;
+}
+
+.project_scope > .project_colume_6{
+  width: 40vw;
+  padding-top: 80px;
+}
+
+.project_scope > .project_colume_6 > .txt_colume_6 > p{
+  width: 300px;
+} 
+
+.txt_colume_6{
+  width: 30vw;
+}
+
+.project_scope > .project_colume_6 > .txt_colume_6 {
+  padding-bottom: 30px;
+  padding-left: 140px;
+}
+
+.project_scope > .colume_6{
+  padding-top: 180px;
+}
+
+.project_scope > .colume_6 > h1{
+  padding-left: 140px;
+  padding-bottom: 40px;
+}
+
+.project_scope > .colume_6 > p{
+  padding-left: 140px;
+  padding-bottom: 10px;
+}
+
+/* ==============================
+Project: User flow
+================================= */
+.wireframe_part{
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.wireframe_part > .colume_12{
+  margin: auto;
+  width: 40vw;
+  height: 10vh;
+  text-align: center;
+  padding: 40px;
+}
+
+.wireframe_part > .colume_12 > .subhead1{
+  margin: auto;
+  padding-bottom: 10px;
+  background-color: #000000;
+  width: 300px;
+  color: #FFFFFF;
+  padding-top: 10px;
+  font-weight: 400;
+  margin-bottom: 15px ;
+}
+
+.svg_box{
+  width: 100vw;
+  margin: auto;
+}
+
+.svg_box > .vector{
+  width: 100vw;
+  transform: rotate(90deg);
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.bk-black{
+  background: #000000;
 }
 
 /* ==============================
@@ -591,12 +804,16 @@ Project: third section
   width: 70vw;
   height: 30vh;
   margin-left: 20vw;
-  padding-top: 2em;
+  padding-top: 4em;
+}
+
+.project_preview_func > .txt_colume_6 > h3{
+  margin-bottom: -0.35em;
 }
 
 .project_preview_func > .txt_colume_6 > p{
-  margin-top: 1em;
-  width: 310px;;
+  margin-top: 1.6em;
+  width: 440px;
 }
 
 .project_preview_func > .txt_colume_6 > .bolder{
@@ -612,7 +829,7 @@ Project: forth section
 ================================= */
 
 .forth_section{
-  height: 100vh;
+  height: 70vh;
 }
 
 .forth_section > .txt_colume_6 > p{
@@ -621,8 +838,12 @@ Project: forth section
 
 .forth_section > .txt_colume_6{
   margin-left: 25vw;
-  margin-top: 32vh;
+  /* margin-top: 32vh; */
   width: 350px;
+}
+
+.project_preview_logo{
+  margin-top: 280px;
 }
 
 
@@ -636,7 +857,7 @@ Project: forth section
 
 .project_preview_logo > .img_colume_6{
   float: left;
-  margin-top: 34vh;
+  margin-top: 11vh;
   margin-left: 10vw;
 }
 
@@ -649,8 +870,8 @@ Project: forth section
   animation-iteration-count: infinite;
   transform-origin: center;
   font-weight: bold;
-  
 }
+
 .project_preview_logo > .txt_colume_6 > .italic_transform{
   text-align: center;
   font-size: 1.27em;
@@ -741,7 +962,6 @@ Project: forth section
 
 .typo{
   height: 88vh;
-
 }
 
 .typo > .txt_colume_6 > .img_colume_6 > picture > img{
@@ -799,26 +1019,36 @@ Project: fifth section
   line-height: 40px;
 }
 
-/* .visual_design_section{
-  margin: auto;
-  width: 60vw;
-} */
-
-/* .whole_img{
-  width: 60vw;
-} */
-
 
 .visual_design_section{
   margin: auto;
   width: 70vw;
   height: auto;
-  padding-top: 100px
+  padding-top: 100px;
 }
 
 .whole_img{
   width: 70vw;
 }
+
+.scroll_up > .vector{
+  width: 50px;
+  opacity: 0.1;
+  position: fixed;
+  top: 85vh;
+  right: 4vw;
+}
+
+.scroll_up > .vector:hover{
+  opacity: 1;
+  transition: all .5s ease-out;
+}
+
+
+
+
+
+
 
 
 
@@ -850,6 +1080,10 @@ Project: fifth section
 .profile_colume{
   margin: auto;
   width: 100vw;
+}
+
+.profile_colume > picture > img{
+  width: 20vw;
 }
 
 .introduction{
