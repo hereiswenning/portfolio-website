@@ -1096,8 +1096,9 @@ Project: fifth section
   width: 100vw;
 }
 
-.profile_colume > picture > img{
+.profile_colume > img{
   width: 20vw;
+  padding-top: 100px;
 }
 
 .introduction{
