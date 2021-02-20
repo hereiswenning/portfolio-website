@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1335px" height="749px" viewBox="0 0 1335 749" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>P2-UserFlow@3x</title>
+    <g id="Wireframe-v.2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fitness-userflow" transform="translate(-221.000000, -412.000000)">
+            <g id="P2-UserFlow" transform="translate(221.000000, 412.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="6" fill-opacity="0" fill="#D8D8D8" x="3" y="3" width="344" height="75" rx="8"></rect>
+                <text id="Sign-up" font-family="IBMPlexSerif-Bold, IBM Plex Serif" font-size="28" font-weight="bold" fill="#A29E9F">
+                    <tspan x="126.948" y="50">Sign up</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#979797" stroke-width="6" fill-opacity="0" fill="#D8D8D8" x="3" y="153" width="350" height="75" rx="8"></rect>
+                <text id="Preference-setting" font-family="IBMPlexSerif-Bold, IBM Plex Serif" font-size="28" font-weight="bold" fill="#A29E9F">
+                    <tspan x="54.012" y="200">Preference setting</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#979797" stroke-width="6" fill-opacity="0" fill="#D8D8D8" x="1026" y="303" width="306" height="75" rx="8"></rect>
+                <text id="Add-to-week-scedule" font-family="IBMPlexSerif-Bold, IBM Plex Serif" font-size="28" font-weight="bold" fill="#A29E9F">
+                    <tspan x="1039.276" y="350">Add to week scedule</tspan>
+                </text>
+                <g id="Group" transform="translate(339.000000, 518.000000)">
+                    <rect id="Rectangle" stroke="#979797" stroke-width="6" fill-opacity="0" fill="#D8D8D8" x="3" y="3" width="234" height="75" rx="8"></rect>
+                    <text id="Play-the-video" font-family="IBMPlexSerif-Bold, IBM Plex Serif" font-size="24" font-weight="bold" fill="#A29E9F">
+                        <tspan x="37" y="50">Play the video</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(339.000000, 668.000000)">
+                    <rect id="Rectangle" stroke="#979797" stroke-width="6" fill-opacity="0" fill="#D8D8D8" x="3" y="3" width="259" height="75" rx="8"></rect>
+                    <text id="View-the-history" font-family="IBMPlexSerif-Bold, IBM Plex Serif" font-size="24" font-weight="bold" fill="#A29E9F">
+                        <tspan x="37" y="50">View the history</tspan>
+                    </text>
+                </g>
+                <path d="M339,559 L311,559 C309.343146,559 308,560.343146 308,562 L308,706 C308,707.656854 309.343146,709 311,709 L339,709 L339,709" id="Path-3" stroke="#A29E9F" stroke-width="6" stroke-linecap="round"></path>
+                <rect id="Rectangle" stroke="#979797" stroke-width="6" fill-opacity="0" fill="#D8D8D8" x="339" y="303" width="262" height="75" rx="8"></rect>
+                <text id="Check-schedule" font-family="IBMPlexSerif-Bold, IBM Plex Serif" font-size="28" font-weight="bold" fill="#A29E9F">
+                    <tspan x="362.672" y="350">Check schedule</tspan>
+                </text>
+                <rect id="Rectangle" fill="#A29E9F" x="76" y="300" width="206" height="81" rx="8"></rect>
+                <text id="Homepage" font-family="IBMPlexSerif-Bold, IBM Plex Serif" font-size="28" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="105.566" y="350">Homepage</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#979797" stroke-width="6" fill-opacity="0" fill="#D8D8D8" x="661" y="303" width="305" height="75" rx="8"></rect>
+                <text id="Select-fitness-video" font-family="IBMPlexSerif-Bold, IBM Plex Serif" font-size="28" font-weight="bold" fill="#A29E9F">
+                    <tspan x="685.19" y="350">Select fitness video</tspan>
+                </text>
+                <line x1="175" y1="81" x2="175" y2="150" id="Path-4" stroke="#979797" stroke-width="5" stroke-linecap="round"></line>
+                <line x1="175" y1="231" x2="175" y2="300" id="Path-5" stroke="#979797" stroke-width="5" stroke-linecap="round"></line>
+                <line x1="282" y1="341.5" x2="336" y2="341.5" id="Path-6" stroke="#979797" stroke-width="6" stroke-linecap="round"></line>
+                <line x1="604" y1="341.5" x2="658" y2="341.5" id="Path-7" stroke="#979797" stroke-width="6" stroke-linecap="round"></line>
+                <line x1="969" y1="341.5" x2="1023" y2="341.5" id="Path-8" stroke="#979797" stroke-width="6" stroke-linecap="round"></line>
+                <path d="M1180,381 L1179.04917,438.049993 C1179.02188,439.687129 1177.68695,441 1176.04958,441 L191,441 C189.343146,441 188,442.343146 188,444 L188,634 L188,634 L308,634" id="Path-9" stroke="#979797" stroke-width="6" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

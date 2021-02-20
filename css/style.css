@@ -29,9 +29,11 @@ body{
 }
 
 h1{
-  font-size: 2.25em;
+  font-size: 2.7em;
   margin-bottom: 5%;
   font-weight: 100;
+  font-family: 'IBM Plex Serif',Big Caslon, cursive;
+  color: #272727;
 }
 
 h2{
@@ -40,6 +42,7 @@ h2{
   font-weight: 300;
   margin-bottom: 0.1em;
   letter-spacing: -0.025em;
+  font-family: 'IBM Plex Serif',Big Caslon, cursive;
 }
 
 h3{
@@ -47,11 +50,13 @@ h3{
   line-height: 1.5em;
   font-weight: 500;
   letter-spacing: -0.025em;
+  font-family: 'IBM Plex Serif',Big Caslon, cursive;
 }
 
 h4{
   font-size: 24px;
   margin-bottom: 36px;
+  font-family: 'IBM Plex Serif',Big Caslon, cursive;
 }
 
 .subhead1{
@@ -95,6 +100,10 @@ h4{
 
 .capitalization{
   text-transform: uppercase;
+}
+
+.font-DO{
+  font-family: "Days One", sans-serif;
 }
 
 .grey{
@@ -193,7 +202,6 @@ h4{
 .hero_img{
   width: 38%;
   padding: 0em 2em 0em 2em;
-
 }
 
 /* .btn_read_more{
@@ -211,9 +219,50 @@ h4{
 
 .header{
     width: 100%;
-    height: 50px;
+    height: 80px;
     text-align: unset;
     vertical-align: middle;
+    border-bottom: 1px solid #DBDBDF;
+}
+
+/* ==============================
+Body
+================================= */
+
+
+.specific-font{
+  font-size: 6em;
+}
+
+.cursor{
+  cursor: none;
+}
+
+#mouse{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: -32px 0 0 -32px;
+  border: 1px solid #FFBD3E;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+#mouse > svg{
+  position: absolute;
+  padding-top: 18px;
+  left: 8px;
+}
+
+a:hover{
+  cursor: none;
+}
+
+.background{
+  background-image: url("../img/png/Background-1.png");
+  background-attachment: fixed;
+  
 }
 
 /* ==============================
@@ -367,8 +416,8 @@ Hero Section
   width: 400px;
   display: inline-block;
   margin: 0;
-  margin-top: 240px;
-  margin-left: 20%;
+  margin-top: 275px;
+  margin-left: 8.7%;
 }
 
 .colume_ns2siu > .subhead1{
@@ -376,9 +425,18 @@ Hero Section
   margin-bottom: 5%;
 }
 
+.colume_ns2siu >.font-DO{
+  color: #FFBD3E;
+  margin-top: -32px;
+  letter-spacing: 0.01em;
+  font-size: 5em;
+  font-weight: thin;
+  text-decoration: underline #FFBD3E;
+}
+
 @media only screen and (min-width: 641px){
   .colume_ns2siu{
-    width: 700px;
+    width: 750px;
   }
 }
 
@@ -459,21 +517,52 @@ Third section: Project index
   width: 100vw;
 }
 
-.project_index_row{
-  width: 80vw;
+.row{
+  display: block;
+  width: 66vw;
   padding-top: 200px;
-  padding-left: 5%;
   margin: auto;
 }
 
-.project_index_colume{
-  display: inline-block;
-  padding: 0 0 0 1em;
+.img_colume_6{
+  float: left;
+}
+
+.project-list{
+  margin: auto;
+  height: 300vh;
 }
 
 .project_index_cover{
-  width: 23vw;
+  width: 400px;
+  height: 600px;
 }
+
+.project-list > .row > .txt_colume_6 > .tag{
+  background-color: #272727;
+  width: auto;
+  color: #FFFFFF;
+  font-weight: 800;
+  padding: 10px 10px 10px 10px;
+  width: 8em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-bottom: 24px;
+}
+
+.project-list > .row > .txt_colume_6 > h2{
+  margin-bottom: 24px;
+}
+
+.project-list > .row > .txt_colume_6 > .body3{
+  width: 300px;
+}
+
+.project-list > .row > .right{
+  margin-left: 6em;
+}
+
+
 
 .read_more_btn{
   text-align: center;
@@ -611,8 +700,9 @@ Project: Hero section
 
 .project_preview_pj{
   max-width: 100vw;
-  height: 140vh;
+  height: 100vh;
   /* background-color: #1BC8D4; */
+  padding-bottom: 200px;
   background-color: #000000;
 }
 
@@ -719,9 +809,6 @@ Plus section: Scope
   margin-left: 10vw ;
 }
 
-.project_scope_row{
-  
-}
 
 .project_colume_6{
   float: left;
@@ -1069,6 +1156,12 @@ Project: fifth section
 
 
 
+/* ================================= */
+/* ================================= */
+/* ================================= */
+
+
+
 
 
 
@@ -1240,12 +1333,14 @@ Project: fifth section
 }
 
 .footer{
-  width: auto;
+  position: relative;
+  bottom: 0;
+  width: 100vw;
   height: 80wh;
   background: black;
   padding: 3% 0 3% 0;
   text-align: center;
-  margin-top: 100px
+  margin-top: 100px,
 }
 
 .footer h2{
@@ -1333,3 +1428,87 @@ Project: fifth section
   from {transform: translate(0px,0px);}
   to {transform: translate(0px, 4px);}
 }
+
+
+/* ==============================
+Project2: Hero section
+================================= */
+
+.video_frame{
+  width: 1244px;
+  height: 640px;
+  background: grey;
+  margin: auto;
+}
+
+
+.ft-white{
+  color: #ffffff;
+}
+
+.ft-orange{
+  color: #FF7B42;
+}
+
+.bk-grey{
+  background: #272727;
+}
+
+/* ==============================
+Project2:Third section
+================================= */
+
+.colume_h1-img{
+  width: 68vw;
+  height: 70vh;
+  margin: auto;
+  padding-top: 200px;
+}
+.colume_h1-img > h1{
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.colume_h1-img > .img{
+  width: 1000px;
+  margin: auto;
+}
+
+/* ==============================
+Project2: Third section
+================================= */
+
+.section{
+  width: 100vw;
+  height: 100vh;
+  padding-left: 135px;
+}
+
+.margin-plus{
+  margin-top: 500px;
+}
+
+.stylesheet > .video_frame{
+  margin: 0;
+  margin-top: 64px;
+}
+
+.stylesheet > .img{
+  width:1000px;
+  margin: auto;
+  margin-top: 120px;
+  padding-left: 4em;
+}
+
+
+/* ==============================
+Project2: Forth section
+================================= */
+.text-only{
+  text-align: center;
+  padding: 0px;
+  margin-top: 100px;
+}
+
+
+
