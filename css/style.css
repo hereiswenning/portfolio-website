@@ -33,6 +33,7 @@ h1{
   margin-bottom: 5%;
   font-weight: 100;
   font-family: 'IBM Plex Serif',Big Caslon, cursive;
+  -webkit-font-smoothing: antialiased;
   color: #272727;
 }
 
@@ -43,14 +44,15 @@ h2{
   margin-bottom: 0.1em;
   letter-spacing: -0.025em;
   font-family: 'IBM Plex Serif',Big Caslon, cursive;
+  -webkit-font-smoothing: antialiased;
 }
 
 h3{
   font-size: 1.5em;
   line-height: 1.5em;
-  font-weight: 500;
-  letter-spacing: -0.025em;
-  font-family: 'IBM Plex Serif',Big Caslon, cursive;
+  /* font-weight: 500; */
+  letter-spacing: 0.77px;
+  font-family: 'Lucida Sans';
 }
 
 h4{
@@ -85,10 +87,10 @@ h4{
 
 .body3{
   font-size: 1em;
-  font-family: "Balsamiq Sans";
+  font-family: "Lucida Sans";
   font-weight: 300;
   line-height: 1.8em;
-  letter-spacing: 0.045em;
+  letter-spacing: 0.51px;
 }
 
 .caption{
@@ -106,6 +108,10 @@ h4{
   font-family: "Days One", sans-serif;
 }
 
+.font-CO{
+  font-family: "Concert One", sans-serif;
+}
+
 .grey{
   color: #A29E9F;
 }
@@ -115,7 +121,7 @@ h4{
 }
 
 .accent{
-  color: #272727;
+  color: #06D1DC;
 }
 
 .thin{
@@ -446,7 +452,7 @@ Second section: About me index
 
 .second_section{
   width: 100vw;
-  height: 100vh;
+  height: 40vh;
   margin: auto;
 }
 
@@ -850,15 +856,14 @@ Plus section: Scope
 /* ==============================
 Project: User flow
 ================================= */
-.wireframe_part{
+.mid_block{
   width: 100vw;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   margin: auto;
-  padding-top: 200px;
+  padding-bottom: 100px;
 }
-
-.wireframe_part > .colume_12{
+.mid_block > .colume_12{
   margin: auto;
   width: 40vw;
   height: 10vh;
@@ -866,7 +871,7 @@ Project: User flow
   padding: 40px;
 }
 
-.wireframe_part > .colume_12 > .subhead1{
+.mid_block > .colume_12 > .subhead1{
   margin: auto;
   padding-bottom: 10px;
   background-color: #000000;
@@ -1074,32 +1079,153 @@ Project: forth section
 Project: fifth section
 ================================= */
 
-.fifth_section{
-  height: 90vh;
-  width: 100vw;
+.user_research_w > div > .vector-highlight{
+  position: absolute;
+  left: 550px;
+  padding-top: 26px;
+  z-index: -1;
 }
 
 .user_research_w{
-  width: 80vw;
+  width: 45vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 78px;
+}
+
+
+.user_research_w > .profile-box{
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.user_research_w > .box{
+  width: 520px;
+  height: auto;
+  padding: 20px 64px 20px 64px;
+  background: #F3F3F3;
+  text-align: center;
+  margin-top: 32px;
+}
+
+/* ============================== */
+
+.user_research_what > .box > .vector-highlight{
+  position: absolute;
+  left: 268px;
+  padding-top: 105px;
+}
+
+
+.user_research_what{
+  width: 100vw;
+  height: 23vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 166px;
+  background: #F3F3F3;
+}
+
+.user_research_what > .box {
+  width: 68vw;
   margin: auto;
 }
 
-.user_research_w > .img_colume_4{
-  padding: 24vh 0 0 20vw;
+.user_research_what > .box > h3 {
+  padding-top: 75px;
+  text-align: left;
+  padding-left: 40px;
 }
 
-.img_colume_4{
+.user_research_what > .box > .colume{
+  padding: 0 40px 0 40px;
+  height: 300px;
+  margin-top: 65px;
   float: left;
 }
 
-.user_research_w > .img_colume_4 > picture > img{
-  height: 200px;
-  padding: 0 2em 0 2em;
+.user_research_what > .box > .colume > .colume{
+  float: left;
 }
 
-.user_research_w > .img_colume_4 > h3{
-  padding-bottom: 3em;
+.user_research_what > .box > .colume > .colume > p{
+  text-align: left;
+  width: 320px;
+  padding-left: 20px;
+}
+
+/* ============================== */
+
+.user_research_when > .vector-highlight{
+  position: absolute;
+  left: 284px;
+  padding-top: 30px;
+  z-index: -1;
+}
+
+.user_research_when{
+  width: 100vw;
+  height: auto;
+  margin: auto;
   text-align: center;
+  margin-top: 166px;
+}
+
+.user_research_when > h3{
+  text-align: left;
+  padding-left: 20vw;
+}
+
+.user_research_when > .row{
+  width: 78vw;
+  height: 300px;
+  padding-top: 65px;
+}
+
+.user_research_when > .row > .colume-1{
+  width: 360px;
+  text-align: center;
+  float: left;
+}
+
+.user_research_when > .row > .colume-1 > .colume{
+  margin: auto;
+}
+
+.user_research_when > .row > .colume-1 > .colume > img{
+  width: 300px;
+  margin: auto;
+  transition: 1s ease-in-out;
+}
+
+.visual-element{
+  animation-name: emerge;
+  animation-duration: 2s;
+}
+
+@keyframes emerge{
+  from{opacity: 0;}
+  to{opacity: 100;}
+}
+
+.user_research_when > .row > .colume-1 > .colume > p{
+  width: 252px;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.img_colume_4{
+  float: left;
 }
 
 .txt_colume_12_w{
@@ -1292,17 +1418,6 @@ Project: fifth section
   margin-bottom: 20%;
 }
 
-.colume1{
-  float: right;
-}
-
-.colume2{
-  background: blue;
-  width: auto;
-  float: left;
-  margin-right: 5%;
-}
-
 .colume2 p{
   color: #FFFFFF;
   width: 446px;
@@ -1481,7 +1596,6 @@ Project2: Third section
 .section{
   width: 100vw;
   height: 100vh;
-  padding-left: 135px;
 }
 
 .margin-plus{
