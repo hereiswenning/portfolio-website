@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="70px" viewBox="0 0 180 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Manage-budget</title>
+    <defs>
+        <filter x="-25.0%" y="-300.0%" width="150.0%" height="700.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Research" transform="translate(-596.000000, -531.000000)">
+            <g id="Manage-budget" transform="translate(598.000000, 536.000000)">
+                <ellipse id="Oval" fill="#8697B9" filter="url(#filter-1)" cx="88" cy="30" rx="60" ry="5"></ellipse>
+                <rect id="Rectangle" fill="#8697B9" x="0" y="0" width="135" height="30" rx="5"></rect>
+                <text font-family="Gilroy" font-size="14" font-weight="normal" letter-spacing="0.30625" fill="#FFFFFF">
+                    <tspan x="13.439375" y="19">Manage budget</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

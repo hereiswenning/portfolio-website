@@ -6,13 +6,18 @@ Black: #272727
 Orange: #FF7B42
 */
 
+@font-face{
+  font-family: Gilroy;
+  src: url(https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css);
+}
+
 html{
   scroll-behavior: smooth;
 }
 
 
 body{
-  font-family: 'IBM Plex Serif',Big Caslon, cursive;
+  font-family: 'IBM Plex Serif',sans-serif;
   font-size: 14px;
 }
 
@@ -32,7 +37,8 @@ h1{
   font-size: 2.7em;
   margin-bottom: 5%;
   font-weight: 100;
-  font-family: 'IBM Plex Serif',Big Caslon, cursive;
+  /* font-family: 'IBM Plex Serif', sans-serif; */
+  font-family: 'Gilroy', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #272727;
 }
@@ -43,7 +49,7 @@ h2{
   font-weight: 300;
   margin-bottom: 0.1em;
   letter-spacing: -0.025em;
-  font-family: 'IBM Plex Serif',Big Caslon, cursive;
+  font-family: 'IBM Plex Serif',sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -51,14 +57,14 @@ h3{
   font-size: 1.5em;
   line-height: 1.5em;
   /* font-weight: 500; */
-  letter-spacing: 0.77px;
-  font-family: 'Lucida Sans';
+  letter-spacing: 2px;
+  font-family: 'Gilroy', sans-serif;
 }
 
 h4{
   font-size: 24px;
   margin-bottom: 36px;
-  font-family: 'IBM Plex Serif',Big Caslon, cursive;
+  font-family: 'IBM Plex Serif',sans-serif;
 }
 
 .subhead1{
@@ -70,7 +76,7 @@ h4{
   font-size: 1.33em;
   font-weight: 200;
   line-height: 1.33em;
-  font-family: "Balsamiq Sans";
+  font-family: "Balsamiq Sans", sans-serif;
   letter-spacing: 0.025em;
   line-height: 1.5em;
   text-align: left;
@@ -79,7 +85,7 @@ h4{
 
 .body2{
   font-size: 1.1em;
-  font-family: "Balsamiq Sans";
+  font-family: "Balsamiq Sans", sans-serif;
   font-weight: 200;
   line-height: 1.33em;
   letter-spacing: 0.025em;
@@ -87,7 +93,7 @@ h4{
 
 .body3{
   font-size: 1em;
-  font-family: "Lucida Sans";
+  font-family: "Gilroy", sans-serif;
   font-weight: 300;
   line-height: 1.8em;
   letter-spacing: 0.51px;
@@ -95,7 +101,7 @@ h4{
 
 .caption{
   font-size: 0.8em;
-  font-family: "Balsamiq Sans", sans-serif;
+  font-family: "Gilroy", sans-serif;
   font-weight: 400;
   letter-spacing: 0.025em;
 }
@@ -935,7 +941,7 @@ Project: forth section
 ================================= */
 
 .forth_section{
-  height: 70vh;
+  height: 30vh;
 }
 
 .forth_section > .txt_colume_6 > p{
@@ -1215,36 +1221,146 @@ Project: fifth section
 }
 
 
+/* ==============================
+Design process
+============================== */
 
-
-
-
-
-
-
-
-
-.img_colume_4{
-  float: left;
+.mid_block_white{
+  height: 60vh;
 }
 
-.txt_colume_12_w{
-  float: left;
+.mid_block_white > .colume_12{
+  padding-top: 200px;
+}
+
+.user-flow{
+  height: auto;
+  width: 60vw;
+  height: auto;
+  margin: auto;
+}
+
+.user-flow > img{
+  width: 60vw;
+  opacity: 0.5;
+}
+
+.user-flow > h3 {
   text-align: center;
-  width: 83vw;
-}
-.user_research_w > .txt_colume_12_w > ul > li > h3{
-  font-weight: bold;
-  padding-bottom: 1em;
+  
 }
 
-.user_research_w > .txt_colume_12_w  > ul {
-  padding-top: 2em;
+.user-flow > .row{
+  width: auto;
+  height: 300px;
+  padding-top: 64px;
+  margin: auto;
 }
 
-.user_research_w > .txt_colume_12_w  > ul >li{
-  line-height: 40px;
+.user-flow > .box{
+  padding-top: 60px;
 }
+
+.user-flow > .box > .img1{
+  position: absolute;
+  padding-top: 0px;
+  left: 35vw;
+}
+
+.user-flow > .box > .img2{
+  position: absolute;
+  padding-top: 160px;
+  left: 48vw;
+}
+
+.user-flow > .box > .img3{
+  position: absolute;
+  padding-top: 320px;
+  left: 64.5vw;
+}
+
+.user-flow > img{
+  margin-bottom: 100px;
+}
+
+.screen-design{
+  text-align: center;
+  background: #272727;
+}
+
+.screen-design > h3{
+  padding-top: 48px;
+  padding-bottom: 91px;
+}
+
+
+/* ==============================
+User testing
+============================== */
+
+.user-testing{
+  margin: auto;
+  height: 300vh;
+  width: 100vw;
+  
+}
+
+.user-testing > .text{
+  width: 70vw;
+  margin: auto;
+  margin-top: 10vh;
+  padding-left: 4em;
+}
+
+
+.user-testing > .row{
+  
+  width: 70vw;
+  height: 400px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.user-testing > .row > svg{
+  float: left;
+  padding: 0 2em 0 2em;
+  width: 18vw;
+}
+
+.bk-light{
+  background: #F3F3F3;
+}
+
+.validation{
+  width: 87vw;
+  height: 80vh;
+  margin: auto;
+  padding: 3em 0 3em 0;
+  margin-top: 2em;
+}
+
+.validation > svg{
+  padding: 0 1em 0 1em;
+}
+
+/* Stylesheet */
+.stylesheet-img{
+  width: 100vw;
+  margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .visual_design_section{
@@ -1337,7 +1453,7 @@ Project: fifth section
   padding-bottom: 1em;
 }
 
-.row{
+.project-list > .row{
   height: 400px;
   margin-bottom: 100px;
 }

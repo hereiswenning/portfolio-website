@@ -68,4 +68,16 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// Switch hover
+
+function switchhover(){
+    var x = document.getElementsByClassName('switch');
+    if ( x == 'switch'){
+        x.className = 'switch-accent caption'
+    }else{
+        x.className = 'switch caption'
+    }
+}
+
+switchhover.addEventListener('mouseenter');
 
