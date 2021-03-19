@@ -8,7 +8,7 @@
                     <tspan x="0" y="196">Wen</tspan>
                     <tspan x="0" y="346">Ning</tspan>
                 </text>
-                <rect id="Rectangle" fill="#FF7B42" x="129" y="151" width="47" height="47" rx="23.5"></rect>
+                <rect  fill="#FF7B42" x="129" y="151" width="47" height="47" rx="23.5"></rect>
             </g>
         </g>
     </g>

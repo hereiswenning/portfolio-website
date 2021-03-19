@@ -16,7 +16,7 @@
                         <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
                         <g id="Group" mask="url(#mask-2)" fill="#FFFFFF">
                             <g id="🎨Color">
-                                <rect id="Rectangle" x="0" y="0" width="70" height="70"></rect>
+                                <rect  x="0" y="0" width="70" height="70"></rect>
                             </g>
                         </g>
                     </g>

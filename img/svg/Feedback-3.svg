@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="330px" height="359px" viewBox="0 0 330 359" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Feedback-3</title>
-    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Research" transform="translate(-875.000000, -3064.000000)">
             <g id="Feedback-3" transform="translate(875.000000, 3064.000000)">
-                <text id="Too-many-various-inf" font-family="Gilroy" font-size="18" font-weight="normal" line-spacing="24" letter-spacing="0.655714286" fill="#1BC8D4">
+                <text id="Too-many-various-inf" font-family="Gilroy" font-size="18" font-weight="normal"  letter-spacing="0.655714286" fill="#1BC8D4">
                     <tspan x="31" y="236">Too many various information </tspan>
                     <tspan x="31" y="260">above make user confused </tspan>
                     <tspan x="31" y="284">which area should be focused</tspan>
                 </text>
-                <text id="Priority-1" font-family="Gilroy" font-size="18" font-weight="normal" line-spacing="24" letter-spacing="0.655714286" fill="#000000">
+                <text font-family="Gilroy" font-size="18" font-weight="normal"  letter-spacing="0.655714286" fill="#000000">
                     <tspan x="31" y="348">Priority 1</tspan>
                 </text>
-                <text id="Error-rating-0.2" font-family="Gilroy" font-size="18" font-weight="normal" line-spacing="24" letter-spacing="0.655714286" fill="#000000">
+                <text  font-family="Gilroy" font-size="18" font-weight="normal"  letter-spacing="0.655714286" fill="#000000">
                     <tspan x="31" y="322">Error rating 0.2</tspan>
                 </text>
-                <path d="M9,0 L321,0 C325.970563,-9.13077564e-16 330,4.02943725 330,9 L330,182 C330,186.970563 325.970563,191 321,191 L31,191 L31,191 L15.363961,206.636039 C11.8492424,210.150758 6.1507576,210.150758 2.63603897,206.636039 C0.948211563,204.948212 -3.34584631e-14,202.659026 0,200.272078 L0,9 C-6.08718376e-16,4.02943725 4.02943725,9.13077564e-16 9,0 Z" id="Rectangle" fill="#F3F3F3"></path>
-                <text id="“-I-am-confused-when" font-family="Gilroy" font-size="18" font-weight="normal" line-spacing="24" letter-spacing="0.655714286" fill="#000000">
+                <path d="M9,0 L321,0 C325.970563,-9.13077564e-16 330,4.02943725 330,9 L330,182 C330,186.970563 325.970563,191 321,191 L31,191 L31,191 L15.363961,206.636039 C11.8492424,210.150758 6.1507576,210.150758 2.63603897,206.636039 C0.948211563,204.948212 -3.34584631e-14,202.659026 0,200.272078 L0,9 C-6.08718376e-16,4.02943725 4.02943725,9.13077564e-16 9,0 Z"  fill="#F3F3F3"></path>
+                <text id="“-I-am-confused-when" font-family="Gilroy" font-size="18" font-weight="normal"  letter-spacing="0.655714286" fill="#000000">
                     <tspan x="31" y="45">“ I am confused when I </tspan>
                     <tspan x="31" y="69">jumped into the transaction </tspan>
                     <tspan x="31" y="93">page“</tspan>

@@ -7,13 +7,13 @@
             <use xlink:href="#path-1"></use>
         </mask>
     </defs>
-    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Research" transform="translate(-689.000000, -3720.000000)">
             <g id="After-v1" transform="translate(689.000000, 3720.000000)">
-                <text id="After" font-family="Gilroy" font-size="18" font-weight="normal" line-spacing="24" letter-spacing="0.655714286" fill="#000000">
+                <text id="After" font-family="Gilroy" font-size="18" font-weight="normal"  letter-spacing="0.655714286" fill="#000000">
                     <tspan x="107" y="14">After</tspan>
                 </text>
-                <text id="Mindset:-After-assig" font-family="Gilroy" font-size="18" font-weight="bold" line-spacing="24" letter-spacing="0.655714286">
+                <text id="Mindset:-After-assig" font-family="Gilroy" font-size="18" font-weight="bold"  letter-spacing="0.655714286">
                     <tspan x="293" y="183" fill="#000000">Mindset:</tspan>
                     <tspan x="369.039714" y="183" font-family="Gilroy" font-weight="normal" fill="#000000"></tspan>
                     <tspan x="293" y="207" font-family="Gilroy" font-weight="normal" fill="#000000">After assigning the budget, </tspan>
@@ -33,7 +33,7 @@
                     </text>
                 </g>
                 <g id="Group-30" transform="translate(289.000000, 326.000000)">
-                    <text id="The-critical-informa" font-family="Gilroy" font-size="18" font-weight="bold" line-spacing="24" letter-spacing="0.655714286" fill="#000000">
+                    <text id="The-critical-informa" font-family="Gilroy" font-size="18" font-weight="bold"  letter-spacing="0.655714286" fill="#000000">
                         <tspan x="0" y="56">The critical information:</tspan>
                         <tspan x="214.068857" y="56" font-family="Gilroy" font-weight="normal"></tspan>
                         <tspan x="0" y="80" font-family="Gilroy" font-weight="normal">The most thing for users is </tspan>
@@ -50,7 +50,7 @@
                         </text>
                     </g>
                 </g>
-                <use id="Rectangle" stroke="#02AD58" mask="url(#mask-2)" stroke-width="6" stroke-dasharray="2" xlink:href="#path-1"></use>
+                <use  stroke="#02AD58" mask="url(#mask-2)" stroke-width="6" stroke-dasharray="2" xlink:href="#path-1"></use>
             </g>
         </g>
     </g>

@@ -13,9 +13,9 @@ function slideUp(){
     if(document.body.scrollTop > 900 || document.documentElement.scrollTop > 900){
     document.getElementById("project_side_bar").className = "slideUp";
         if(document.body.scrollTop > 900 && document.body.scrollTop < 1500){
-            document.getElementById("color1").className = "accent";
+            
         }else{
-            document.getElementById("color1").className = "caption";
+            document.getElementById("color1").className = "caption grey";
         }
     }else{
         document.getElementById("project_side_bar").className = "";

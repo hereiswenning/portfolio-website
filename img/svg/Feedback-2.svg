@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="330px" height="359px" viewBox="0 0 330 359" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Feedback-2</title>
-    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Research" transform="translate(-485.000000, -3064.000000)">
             <g id="Feedback-2" transform="translate(485.000000, 3064.000000)">
-                <text id="The-amount-of-budget" font-family="Gilroy" font-size="18" font-weight="normal" line-spacing="24" letter-spacing="0.655714286" fill="#1BC8D4">
+                <text id="The-amount-of-budget" font-family="Gilroy" font-size="18" font-weight="normal"  letter-spacing="0.655714286" fill="#1BC8D4">
                     <tspan x="31" y="236">The amount of budget display </tspan>
                     <tspan x="31" y="260">is hard to understand.</tspan>
                 </text>
-                <text id="Priority-1" font-family="Gilroy" font-size="18" font-weight="normal" line-spacing="24" letter-spacing="0.655714286" fill="#000000">
+                <text font-family="Gilroy" font-size="18" font-weight="normal"  letter-spacing="0.655714286" fill="#000000">
                     <tspan x="31" y="348">Priority 1</tspan>
                 </text>
-                <text id="Error-rating-0.2" font-family="Gilroy" font-size="18" font-weight="normal" line-spacing="24" letter-spacing="0.655714286" fill="#000000">
+                <text  font-family="Gilroy" font-size="18" font-weight="normal"  letter-spacing="0.655714286" fill="#000000">
                     <tspan x="31" y="322">Error rating 0.2</tspan>
                 </text>
-                <path d="M9,0 L321,0 C325.970563,-9.13077564e-16 330,4.02943725 330,9 L330,182 C330,186.970563 325.970563,191 321,191 L28,191 L28,191 L15.6789238,204.641192 C12.3472239,208.329859 6.65609143,208.619239 2.96742368,205.287539 C1.07817899,203.581124 -2.90777878e-14,201.154415 0,198.608615 L0,9 C-6.08718376e-16,4.02943725 4.02943725,9.13077564e-16 9,0 Z" id="Rectangle" fill="#F3F3F3"></path>
-                <text id="The-available-and-bu" font-family="Gilroy" font-size="18" font-weight="normal" line-spacing="24" letter-spacing="0.655714286" fill="#000000">
+                <path d="M9,0 L321,0 C325.970563,-9.13077564e-16 330,4.02943725 330,9 L330,182 C330,186.970563 325.970563,191 321,191 L28,191 L28,191 L15.6789238,204.641192 C12.3472239,208.329859 6.65609143,208.619239 2.96742368,205.287539 C1.07817899,203.581124 -2.90777878e-14,201.154415 0,198.608615 L0,9 C-6.08718376e-16,4.02943725 4.02943725,9.13077564e-16 9,0 Z"  fill="#F3F3F3"></path>
+                <text id="The-available-and-bu" font-family="Gilroy" font-size="18" font-weight="normal"  letter-spacing="0.655714286" fill="#000000">
                     <tspan x="31" y="45">The available and budget’s </tspan>
                     <tspan x="31" y="69">number is not straightforward, </tspan>
                     <tspan x="31" y="93">which makes user hard to </tspan>

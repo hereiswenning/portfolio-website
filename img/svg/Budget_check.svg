@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="618px" height="618px" viewBox="0 0 618 618" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Budget_check</title>
+    <g id="Budget_check" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="618" height="618"></rect>
+        <g id="Budget" transform="translate(129.000000, 164.000000)">
+            <g id="Group" opacity="0.539969308" transform="translate(42.711864, 32.542373)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.03389831" opacity="0.378417969" x="1.01694915" y="1.01694915" width="187.118644" height="97.6271186"></rect>
+                <circle id="Oval" fill="#1BC8D4" cx="46.779661" cy="50.8474576" r="20.3389831"></circle>
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.03389831" opacity="0.38" x="84.4067797" y="45.7627119" width="75.2542373" height="12.2033898" rx="6.10169492"></rect>
+            </g>
+            <g id="Group-2" opacity="0.5289016" transform="translate(0.000000, 197.288136)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="1.83050847" opacity="0.378417969" x="0.915254237" y="0.915254237" width="168.40678" height="87.8644068"></rect>
+                <circle id="Oval" fill="#1BC8D4" cx="36.6101695" cy="45.7627119" r="18.3050847"></circle>
+                <rect id="Rectangle" stroke="#000000" stroke-width="1.83050847" opacity="0.38" x="70.4745763" y="41.1864407" width="67.7288136" height="10.9830508" rx="5.49152542"></rect>
+            </g>
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.03389831" fill="#1BC8D4" x="116.949153" y="114.915254" width="242.033898" height="126.101695"></rect>
+            <circle id="Oval" fill="#FFFFFF" cx="170.847458" cy="178.983051" r="28.4745763"></circle>
+            <rect id="Rectangle" fill="#FFFFFF" x="225.762712" y="170.847458" width="99.6610169" height="14.2372881" rx="7.11864407"></rect>
+            <text id="#" font-family="DaysOne-Regular, Days One" font-size="40.6779661" font-weight="normal" letter-spacing="0.254237294" fill="#1BC8D4">
+                <tspan x="325.562765" y="97.9491525">#</tspan>
+            </text>
+            <text id="123" font-family="DaysOne-Regular, Days One" font-size="32.5423729" font-weight="normal" letter-spacing="0.203389835" fill="#1BC8D4">
+                <tspan x="0.552966094" y="32">123</tspan>
+            </text>
+            <text id="————/——/——" font-family="DaysOne-Regular, Days One" font-size="24.4067797" font-weight="normal" letter-spacing="0.152542377" fill="#1BC8D4">
+                <tspan x="186.065943" y="282.305085">————/——/——</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
