@@ -41,43 +41,43 @@ function slideUp(){
 
 //Mouse
 
-document.addEventListener('DOMContentLoaded', () => {
-    let mousePosX = 0,
-        mousePosY = 0,
-        mouseCircle = document.getElementById('mouse');
+// document.addEventListener('DOMContentLoaded', () => {
+//     let mousePosX = 0,
+//         mousePosY = 0,
+//         mouseCircle = document.getElementById('mouse');
 
-    document.onmousemove = (e) => {
-        mousePosX = e.pageX;
-        mousePosY = e.pageY;
-    }
+//     document.onmousemove = (e) => {
+//         mousePosX = e.pageX;
+//         mousePosY = e.pageY;
+//     }
 
-    let delay = 6,
-        revisedMousePosX = 0,
-        revisedMousePosY = 0;
+//     let delay = 6,
+//         revisedMousePosX = 0,
+//         revisedMousePosY = 0;
 
-    function delayMouseFollow() {
-        requestAnimationFrame(delayMouseFollow);
+//     function delayMouseFollow() {
+//         requestAnimationFrame(delayMouseFollow);
 
-        revisedMousePosX += (mousePosX - revisedMousePosX) / delay;
-        revisedMousePosY += (mousePosY - revisedMousePosY) / delay; 
+//         revisedMousePosX += (mousePosX - revisedMousePosX) / delay;
+//         revisedMousePosY += (mousePosY - revisedMousePosY) / delay; 
 
-        mouseCircle.style.top = revisedMousePosY + 'px';
-        mouseCircle.style.left = revisedMousePosX + 'px';
-    }
-    delayMouseFollow();
-});
+//         mouseCircle.style.top = revisedMousePosY + 'px';
+//         mouseCircle.style.left = revisedMousePosX + 'px';
+//     }
+//     delayMouseFollow();
+// });
 
 
 // Switch hover
 
-function switchhover(){
-    var x = document.getElementsByClassName('switch');
-    if ( x == 'switch'){
-        x.className = 'switch-accent caption'
-    }else{
-        x.className = 'switch caption'
-    }
-}
+// function switchhover(){
+//     var x = document.getElementsByClassName('switch');
+//     if ( x == 'switch'){
+//         x.className = 'switch-accent caption'
+//     }else{
+//         x.className = 'switch caption'
+//     }
+// }
 
-switchhover.addEventListener('mouseenter');
+// switchhover.addEventListener('mouseenter');
 

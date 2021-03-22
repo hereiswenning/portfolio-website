@@ -70,6 +70,8 @@ h4{
 .subhead1{
   font-size: 1.27em;
   font-weight: lighter;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: bold;
 }
 
 .body1{
@@ -241,6 +243,14 @@ h4{
     border-bottom: 1px solid #DBDBDF;
 }
 
+
+.header2{
+  width: 100%;
+  height: 80px;
+  text-align: unset;
+  vertical-align: middle;
+}
+
 /* ==============================
 Body
 ================================= */
@@ -271,15 +281,15 @@ Body
   left: 8px;
 }
 
-a:hover{
+/* a:hover{
   cursor: none;
-}
+} */
 
-.background{
+/* .background{
   background-image: url("../img/png/Background-1.png");
   background-attachment: fixed;
   
-}
+} */
 
 /* ==============================
 Menu Section
@@ -429,16 +439,16 @@ Hero Section
 }
 
 .colume_ns2siu{
-  width: 400px;
+  width: auto;
   display: inline-block;
   margin: 0;
-  margin-top: 275px;
+  margin-top: 160px;
   margin-left: 8.7%;
 }
 
 .colume_ns2siu > .subhead1{
   margin-top: -5%;
-  margin-bottom: 5%;
+  margin-bottom: 1em;
 }
 
 .colume_ns2siu >.font-DO{
@@ -456,6 +466,57 @@ Hero Section
   }
 } */
 
+.selected-work{
+  width: 100vw;
+  height: auto;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+.selected-work > .box0{
+  width: auto;
+  margin: auto;
+  height: auto;
+  padding-left: 120px;
+}
+
+
+.selected-work > .box0 > img{
+  margin: auto;
+  height: auto;
+}
+
+.selected-work > .box0 > .box1 > a > img:hover{
+  opacity: 0.5;
+  animation-duration: 5s;
+}
+
+.selected-work > .box0 > .box1{
+  margin: auto;
+  margin-top: 80px;
+}
+
+.selected-work > .box0 >.box2{
+  margin: auto;
+  margin-top: 40px;
+}
+
+.selected-work > .box0 >.box2 > a > .pj-3{
+  margin-left: 102px;
+}
+
+.selected-work > .box0 >.box2 > a > img:hover{
+  opacity: 0.5;
+  animation-duration: 5s;
+}
+
+.selected-work > .box0 >.box3 > a > img:hover{
+  opacity: 0.5;
+  animation-duration: 5s;
+}
+
+
+
 /* ==============================
 Second section: About me index
 ================================= */
@@ -470,13 +531,14 @@ Second section: About me index
 }
 
 .img_profile_o{
-  width: 100px;
+  /* width: 60px; */
+  margin-bottom: 4em;
   
 }
 
 @media only screen and (min-width: 641px){
   .img_profile_o{
-    width: 180px;
+    width: 100px;
   }
 }
 
