@@ -15,7 +15,7 @@
             <g id="Fast-login" transform="translate(478.000000, 433.000000)">
                 <ellipse id="Oval" fill="#D186A0" filter="url(#filter-1)" cx="68.5" cy="28" rx="51.5" ry="5"></ellipse>
                 <rect  fill="url(#linearGradient-2)" x="0" y="0" width="112" height="30" rx="5"></rect>
-                <text font-family="Gilroy-Light" font-size="14" font-weight="300" letter-spacing="0.30625" fill="#FFFFFF">
+                <text font-family="GilroyLight" font-size="14" font-weight="300" letter-spacing="0.30625" fill="#FFFFFF">
                     <tspan x="23.14375" y="19">Fast login</tspan>
                 </text>
             </g>

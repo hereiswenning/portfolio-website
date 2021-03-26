@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
         <link rel="stylesheet" href="test.js">
         <script src="js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="js/slideIn.min.js"></script>
     </head>
     
 <body class="">
@@ -39,7 +41,7 @@ Header
                 <div class="main_nav">
                   <nav>
                     <ul>
-                      <li><a href="index.html" class="caption capitalization">Project</a></li>
+                      <li><a href="index.html" class="caption capitalization">My Works</a></li>
                       <li><a class="link caption capitalization" href="files/CV-v2.pdf" target="_blank" download>Download CV</a></li>
                         <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
                           <svg height="18pt" viewBox="0 -53 384 384" width="18pt" xmlns="http://www.w3.org/2000/svg"><path class="middle_bar" d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/><path class="top_bar" d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/><path class="bottom_bar" d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/></svg>
@@ -63,14 +65,14 @@ Main section
 ================================= -->
 
         <div class="hero_section project_preview">
-            <div class="colume">
+            <div class="colume come-in">
                 <h3 class="">Bankee App</h3>
                 <p class="body3">Spend your money smartly</p>
             </div>
             <div >
                 <!-- <img class="template_phone transition" src="img/png/Visual_design/Cover1_element.png" alt="img">
                 <img class="template_cover" src="img/png/Visual_design/Cover1.png" alt="Img"> -->
-                <img class="template_cover" src="img/png/Hero-section3.png" alt="Img">
+                <img class="template_cover come-in" src="img/png/Hero-section3.png" alt="Img">
             </div>
   
         </div>
@@ -80,10 +82,10 @@ Second section
 ================================= -->
 
         <div class="second_section project_preview_pj ">
-            <div class="box">
+            <div class="box js-slidein">
                 <p class="subhead1 title white">The problem</p>
-                <h1 class="bold-700 white">How to avoid users <br> spending out of <br> budget each month?</h1>
-                <p class="body3 grey">After studying university, we had to take care of our life on person, so mostly we start to handwrite, or download money-related app to track the expense. However, it comes to be 2 problems for us: <br><span class="">① Forgetting to upload every expense.<br> ② Running out of money in the end of each month.<br></span> What should we do to control our financial state easily? </p>
+                <h1 class="bold-700 accent">Have you ever had no idea about where your money went at the end of each month?</h1>
+                <p class="body3 grey">After studying in university or working in society, you had to take care of your life on person, so mostly you start to handwrite, or download money-related app to track the expense. However, it comes to be 2 problems for you: <br><span class="">① Forgetting to upload every expense.<br> ② Running out of money at the end of each month.<br></span> What should you do to control your financial state easily? </p>
             </div>
 
         
@@ -138,61 +140,49 @@ Forth section
 
  
     <div class="mid_block bk-black">
-        <div class="colume_12">
-            <p class="subhead1 title white">The solution finding</p>
+        <div class="colume_12 js-slidein">
+            <p class="subhead1 white">The solution finding</p>
             <h1 class="white font-DO"> User Research <br> </h1>
-            <p class="body3 white">The most thing is always user-centric. During quarantine period, most interviews were proceeded online. From user's need and experience helps to define the target user, user flow, wireframe and so on … The following information is designed <span class="body3 accent">based on the research </span></p>
+            <p class="body3 white"><span class="body3 accent">The process is based on Lean UX and MVP design.</span> Most interviews were proceeded online, during quarantine period. From users’ needs and experience helps to define 3W, user flow, wireframe and so on …</p>
             
         </div>
     
     </div>
 
-    <div class="fifth_section user_research_w">
+    <div class="fifth_section user_research_w js-slidein">
         <div>
-            <img class="vector-highlight" src="img/svg/Highlight.svg" alt="Highlight.svg">
-            <h3 class="process-list" style="text-decoration: underline;">Quick outline from 3W</h3> 
-            <p class="body3">Who is the target user ?</p> 
+            <h3 class="process-list bold-400">Quick outline from 3W</h3> 
+            <h3 class="thin">Who is the target user ?</h3> 
         </div>
-        
-        <img class="profile-box" src="img/png/User-profile.png" alt="user profile">
-        <p class="body3 grey">Elsa </p>
-        <p class="body3 accent">Those who want to catch up with the financial state </p>
-        <p class="body3 box">„<br>
-                I always set my monthly budget at the beginnig, 
-                but when it comes to the end of month, I still spend out of it. Besides, I record the expense details, but it is just sometimes.<br>
-         “</p>
+        <p class="body3 grey box">Elsa is an uni student. 
+            She got allowance from her parents each month.
+            She overcame the same problem as many beginners of finance might meet: have no idea where the money went at the end of each month.
+            The Bankee app aims to help</p>
+        <p class="body3 bold-400">Those who want to catch up with their financial state </p>
         
     </div>
     <div class="user_research_what">
-        <div class="box">
-            <img class="vector-highlight" src="img/svg/Highlight.svg" alt="Highlight.svg">
-            <p class="body3">What will user do on the app?</p>
+        <div class="box js-slidein">
+            <h3 class="thin">What will the user do on the app?</h3>
             
            
-            <div class="colume">
+            <div class="colume js-slidein">
                 <div class="colume">
-                    <h1 class="bold font-CO">01</h1>
-                </div>
-                <div class="colume">
-                    <p class="body3">Set the budgets for each expense</p>
+                    <p class="body3">Set the budgets for your each expense</p>
                     <p class="body3 grey">A wake-up call budget</p>
                 </div>
             </div>
-            <div class="colume">
+            <div class="colume js-slidein">
                 <div class="colume">
-                    <h1 class="bold font-CO">02</h1>
-                </div>
-                <div class="colume">
-                    <p class="body3">Track the expense</p>
+                    <p class="body3">Connect to your bank cards</p>
                     <p class="body3 grey">Smart expense track</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div  class="user_research_when">
-        <img class="vector-highlight" src="img/svg/Highlight.svg" alt="Highlight.svg">
-        <p class="body3">When will the user use the app ?</p>
+    <div  class="user_research_when js-slidein">
+        <h3 class="thin">When will the user use the app ?</h3>
         <div class="row">
 
             <div class="colume-1">
@@ -200,39 +190,36 @@ Forth section
                     <img class="visual-element" src="img/svg/Budget_check.svg" alt="SVG">
                 </div>
                 <div class="colume">
-                    <p class="body3 grey">when they want to</p>
-                    <p class="body3">Check how much money left within budget</p>
+                    <p class="body3 grey">Check how much money left within your budget</p>
                 </div>
             </div>
             <div class="colume-1">
                 <div class="colume">
-                    <img src="img/svg/Assign_money.svg" alt="SVG">
+                    <img class="visual-element" src="img/svg/Assign_money.svg" alt="SVG">
                 </div>
                 <div class="colume">
-                    <p class="body3 grey">when they want to</p>
-                    <p class="body3">Manage the budget portion</p>
+                    <p class="body3 grey">Manage your budget portion</p>
                 </div>
             </div>
             <div class="colume-1">
                 <div class="colume">
-                    <img src="img/svg/Check_the_expense.svg" alt="SVG">
+                    <img class="visual-element" src="img/svg/Check_the_expense.svg" alt="SVG">
                 </div>
                 <div class="colume">
-                    <p class="body3 grey">when they want to</p>
-                    <p class="body3">Check the expense</p>
+                    <p class="body3 grey">Check your expense</p>
                 </div>
             </div>
                 
         </div>
     </div>
 
-    <div class="mid_block mid_block_white design-process">
+    <div class="mid_block mid_block_white design-process js-slidein">
         <div class="colume_12">
             <h1 class="font-DO"> Design Process <br> </h1>
         </div>     
     </div>
-    <div class="user-flow">
-        <h3>Information Architecture</h3>
+    <div class="user-flow ">
+        <h3>User flow diagram</h3>
 
         <div class="box">
             <svg class="img1" width="163px" height="70px" viewBox="0 0 163 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -309,7 +296,7 @@ Forth section
     <!-- User Testing -->
 
     <div class="second_section mid_block mid_block_white">
-        <div class="colume_12">
+        <div class="colume_12 js-slidein">
             <h1 class="font-DO"> User Testing <br> </h1>
             <p class="body3 grey">Before defining the final visual, 
                 user testing procceeded through both online and offline.
@@ -318,7 +305,7 @@ Forth section
     </div>
 
     <div class="user-testing">
-        <div class="text">
+        <div class="text js-slidein">
             <h3>Feedback overview and define</h3>
             <p class="body3 grey">To follow up the timeline, the feedbacks will be <span class="accent">rated between 1 to 5 <br> 
             priority</span>, and the rule is based on Nelson rules. The priority will be considered <br>
@@ -416,8 +403,8 @@ Forth section
                 <h3>Validation</h3>
             </div>
         
-            <img class="validation-img" src="img/png/Validation-1.png" alt="validation-img">
-            <img class="validation-img" src="img/png/Validation-2.png" alt="validation-img">
+            <img class="validation-img js-slidein" src="img/png/Validation-1.png" alt="validation-img">
+            <img class="validation-img js-slidein" src="img/png/Validation-2.png" alt="validation-img">
         </div>
 
         
@@ -427,12 +414,12 @@ Forth section
     <!-- Branding design -->
 
     <div class="mid_block mid_block_white">
-        <div class="colume_12">
+        <div class="colume_12 js-slidein">
             <h1 class="font-DO"> Branding Design <br> </h1>
         </div>
     </div>
 
-    <div class="forth_section project_preview_logo">
+    <div class="forth_section project_preview_logo js-slidein">
         <div class="txt_colume_6">
             <h3 class="bolder">Logo</h3>
             <p class="body3">Our brand name is Bankee, who wishes saving money path could be joyful. The main idea of the app is budget system, which represents that money should be assigned into various portions, similar to the symbol of Percent(%). <br></p> <p class="italic_transform">*Percent (%) and Joyful*</p> 
@@ -446,7 +433,7 @@ Forth section
         </div>
    </div>
 
-   <img class="stylesheet-img" src="img/png/Stylesheet-v2.png" alt="stylesheet.png">
+   <img class="stylesheet-img js-slidein" src="img/png/Stylesheet-v2.png" alt="stylesheet.png">
 
    <!-- <div class="forth_section project_preview_color">
         <div class="txt_colume_6">
