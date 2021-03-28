@@ -477,7 +477,7 @@ Hero Section
   width: auto;
   margin: auto;
   height: auto;
-  padding-left: 120px;
+  padding-left: 8.5vw;
 }
 
 
@@ -493,26 +493,29 @@ Hero Section
 
 .selected-work > .box0 > .box1{
   margin: auto;
-  margin-top: 80px;
+}
+
+.selected-work > .box0 > span{
+  padding-left: 2px;
 }
 
 .selected-work > .box0 > .box1 > a > img{
   margin: auto;
   width: 83vw;
-  margin-top: 48px;
+  margin-top: 8vh;
 }
 
 .selected-work > .box0 > .box2 > a > img{
-  width: 38vw;
+  width: 39vw;
 }
 
 .selected-work > .box0 >.box2{
   margin: auto;
-  margin-top: 80px;
+  margin-top: 4vh;
 }
 
 .selected-work > .box0 >.box2 > a > .pj-3{
-  margin-left: 88px;
+  margin-left: 5vw;
 }
 
 .selected-work > .box0 >.box2 > a > img:hover{
@@ -523,6 +526,13 @@ Hero Section
 .selected-work > .box0 >.box3 > a > img:hover{
   opacity: 0.5;
   animation-duration: 5s;
+}
+
+@media only screen and (min-width: 641px) {
+  .selected-work > .box0 >.box2{
+    margin: auto;
+    margin-top: 13vh;
+  }
 }
 
 
@@ -541,7 +551,7 @@ Second section: About me index
 }
 
 .img_profile_o{
-  /* width: 60px; */
+  width: 100px;
   margin-bottom: 4em;
   
 }
@@ -835,8 +845,8 @@ Project: Hero section
   margin: auto;
   margin-top: 100px;
   width: 40vw;
-  padding-top: 24px;
-  margin-left: 0vw;
+  padding-top: 10vh;
+  margin-left: 10vw;
   display: block;
 }
 
@@ -847,13 +857,14 @@ Project: Hero section
 
 .project_preview_pj > .box> h1{
   width: 40vw;
-  min-width: 400px;
+  min-width: 360px;
 }
 
 
 
 .project_preview_pj > .box > .body3{
-  width: 480px;
+  width: 45vw;
+  min-width: 410px;
   line-height: 1.6em;
 }
 
@@ -879,9 +890,8 @@ Project: Hero section
   }
 
   .project_preview_pj > .box{
-    margin-left: 20vw;
     display: inline-block;
-    
+    margin-left: 20vw;
   }
 }
 
@@ -894,6 +904,7 @@ Plus section: Scope
 
 .project_scope{
   margin-left: 10vw ;
+  height: auto;
 }
 
 
@@ -902,9 +913,23 @@ Plus section: Scope
   display: inline-block;
 }
 
+
 .project_scope > .project_colume_6{
   width: 40vw;
   padding-top: 80px;
+}
+
+.project_scope > .project_colume_6 > img{
+  width: 43vw;
+}
+
+@media only screen and (max-width: 641px){
+  .project_scope > .project_colume_6{
+    display: block;
+  }
+  .project_colume_6{
+    float: none;
+  }
 }
 
 .project_scope > .project_colume_6 > .txt_colume_6 > p{
@@ -944,12 +969,15 @@ Project: User flow
   padding: 80px 0 220px 0;
   margin-top: 100px;
 }
+
+
 .mid_block > .colume_12{
   margin: auto;
   width: 40vw;
   height: 20vh;
   text-align: center;
   padding: 40px;
+  min-width: 500px;
 }
 
 .design-process{
@@ -965,8 +993,22 @@ Project: User flow
   padding-top: 10px;
   margin-bottom: 15px ;
   font-weight: lighter;
+  min-width: 300px;
 }
 
+.mid_block > .colume_12 > h1{
+  min-width: 400px;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 640px){
+  .mid_block > .colume_12 > .body3{
+    width: 330px;
+    margin: auto;
+  }
+}
 
 .svg_box{
   width: 100vw;
@@ -1128,7 +1170,13 @@ Project: forth section
 }
 
 .project_side_bar{
-  opacity: 1;
+  opacity: 0;
+}
+
+@media only screen and (min-width: 800px){
+  .project_side_bar{
+    opacity: 1;
+  }
 }
 
 .project_side_bar > ul > li{
@@ -1166,11 +1214,18 @@ Project: fifth section
 ================================= */
 
 .user_research_w{
-  width: 45vw;
+  width: 50vw;
   margin: auto;
   text-align: center;
   margin-top: 180px;
   text-align: left;
+}
+
+
+@media only screen and (max-width: 640px){
+  .user_research_w{
+    min-width: 70vw;
+  }
 }
 
 .user_research_w > div > .process-list{
@@ -1199,18 +1254,26 @@ Project: fifth section
 
 .user_research_what{
   width: 100vw;
-  height: 18vw;
+  height: auto;
   margin: auto;
   text-align: left;
-  margin-top: 166px;
+  margin-top: 152px;
   border: 1px solid #DBDBDF;
-  padding-top: 100px;
+  padding-top: 5vh;
+  padding-bottom: 33vh;
+}
+
+@media only screen and (min-width: 641px){
+  .user_research_what{
+    padding-top: 12vh;
+  }
 }
 
 .user_research_what > .box {
   width: 70vw;
   margin: auto;
 }
+
 
 .user_research_what > .box > h3 {
   padding-left: 60px;
@@ -1223,7 +1286,7 @@ Project: fifth section
 }
 
 .user_research_what > .box > .colume{
-  padding: 0 40px 0 60px;
+  padding: 0 5vw 0 60px;
   height: 100px;
   margin-top: 65px;
   float: left;
@@ -1235,7 +1298,31 @@ Project: fifth section
 
 .user_research_what > .box > .colume > .colume > p{
   text-align: left;
-  width: 400px;
+  width: 20vw;
+  min-width: 350px;
+}
+
+@media only screen and (max-width: 1370px){
+  .user_research_what{
+    padding-bottom: 40vh;
+  }
+  .user_research_what > .box > .colume{
+    height: 30px;
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 641px){
+  .user_research_what{
+    padding-bottom: 33vh;
+  }
+  .user_research_what > .box > .colume{
+    height: 20px;
+    margin-top: 45px;
+  }
+  .user_research_what > .box {
+    width: 92vw;
+  }
 }
 
 /* ============================== */
@@ -1879,4 +1966,19 @@ Footer
 .js-slidein-visible {
   opacity: 1 !important;
   transform: translateY(0) !important;
+}
+
+
+/* Project-2 */
+
+.pj-2{
+  margin: auto;
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.full-width-img{
+  width: 80vw;
+  margin: auto;
 }

@@ -191,12 +191,14 @@
             <circle id="Oval" fill="#EEEEEE" cx="153.5" cy="153.5" r="153.5"></circle>
             <circle id="Oval" fill="#E0E0E3" cx="154" cy="154" r="103"></circle>
         </g>
-        <text id="Money-saving-app" font-family="Gilroy" font-size="18" font-weight="bold" letter-spacing="0.514285714" fill="#6D7278">
-            <tspan x="159" y="185">Money saving app</tspan>
+        <g id="Group-3" transform="translate(160.000000, 171.000000)">
+            <text id="Money-saving-app" font-family="Gilroy-Bold" font-size="18" font-weight="bold" letter-spacing="0.514285714" fill="#6D7278">
+                <tspan x="24" y="14">Money saving app</tspan>
+            </text>
+            <path d="M6.75,2 L6.5,15.75 M13.6733938,12.5669873 L0,5.25 M0,12.5669873 L13.6733938,5.25" id="Combined-Shape" stroke="#1BC8D4" stroke-width="3" stroke-linecap="round"></path>
+        </g>
+        <text id="Research-/-UI/UX-des" font-family="Gilroy-Regular" font-size="14" font-weight="normal" line-spacing="32.4" letter-spacing="0.4" fill="#6D7278">
+            <tspan x="59" y="210">Research / UI/UX design / Branding design / User testing</tspan>
         </text>
-        <text id="Research-/-UI/UX-des" font-family="GilroyRegular" font-size="14" font-weight="normal" line-spacing="32.4" letter-spacing="0.4" fill="#6D7278">
-            <tspan x="59" y="210">Research / UI/UX design / Android, iOS / User testing</tspan>
-        </text>
-        <path d="M141.75,173 L141.5,186.75 M148.673394,183.566987 L135,176.25 M135,183.566987 L148.673394,176.25" id="Combined-Shape" stroke="#1BC8D4" stroke-width="3" stroke-linecap="round"></path>
     </g>
 </svg>

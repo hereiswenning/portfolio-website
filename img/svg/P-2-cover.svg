@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="528px" height="398px" viewBox="0 0 528 398" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="548px" height="398px" viewBox="0 0 548 398" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>P-2-cover</title>
     <defs>
         <linearGradient x1="67.9814042%" y1="116.857439%" x2="42.1983887%" y2="17.3382021%" id="linearGradient-1">
@@ -57,18 +57,18 @@
         </filter>
     </defs>
     <g id="P-2-cover" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#FFFFFF" x="0" y="0" width="528" height="398"></rect>
-        <rect id="Rectangle" fill-opacity="0.924388112" fill="#000000" x="0" y="0" width="528" height="398" rx="21"></rect>
-        <g id="Group" transform="translate(186.000000, 62.000000)">
-            <text id="Fitness-app" font-family="Gilroy" font-size="18" font-weight="bold" letter-spacing="0.514285714" fill="#FFFFFF">
+        <rect fill="#FFFFFF" x="0" y="0" width="548" height="398"></rect>
+        <rect id="Rectangle" fill-opacity="0.924388112" fill="#000000" x="0" y="0" width="548" height="398" rx="21"></rect>
+        <g id="Group" transform="translate(211.000000, 62.000000)">
+            <text id="Fitness-app" font-family="Gilroy-Bold" font-size="18" font-weight="bold" letter-spacing="0.514285714" fill="#FFFFFF">
                 <tspan x="24" y="14">Fitness app</tspan>
             </text>
             <path d="M6.75,2 L6.5,15.75 M13.6733938,12.5669873 L0,5.25 M0,12.5669873 L13.6733938,5.25" id="Combined-Shape" stroke="#FF7B42" stroke-width="3" stroke-linecap="round"></path>
         </g>
-        <text id="Research-/-UI/UX-des" font-family="GilroyRegular" font-size="14" font-weight="normal" line-spacing="32.4" letter-spacing="0.4" fill="#F3F3F3">
-            <tspan x="68" y="100">Research / UI/UX design / Android, iOS / User testing</tspan>
+        <text id="Research-/-UI/UX-des" font-family="Gilroy-Regular" font-size="14" font-weight="normal" line-spacing="32.4" letter-spacing="0.4" fill="#F3F3F3">
+            <tspan x="94" y="100">Research / UI/UX design / Android, iOS / User testing</tspan>
         </text>
-        <g id="Group" transform="translate(108.000000, 182.000000)">
+        <g id="Group" transform="translate(127.000000, 183.000000)">
             <g id="📱-iPhone/black" transform="translate(108.000000, 201.500000) rotate(-330.000000) translate(-108.000000, -201.500000) ">
                 <g id="iphone-white" transform="translate(8.952179, 0.458215)">
                     <g id="body">
